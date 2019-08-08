@@ -9,11 +9,11 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-import Login from './pages/Login';
+import Routes from './routes';
 
 export default function App() {
   return (
-    <Login/>
+    <Routes />
   );
 };
 
